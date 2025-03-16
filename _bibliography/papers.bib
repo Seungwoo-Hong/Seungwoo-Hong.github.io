@@ -1,115 +1,145 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{jeon2024cusadi,
+  title={Cusadi: A gpu parallelization framework for symbolic expressions and optimal control},
+  author={Se Hwan Jeon and Seungwoo Hong and Ho Jae Lee and Charles Khazoom and Sangbae Kim},
+  abbr={RA-L},
+  abstract={The parallelism afforded by GPUs presents significant advantages in training controllers through reinforcement learning (RL). However, integrating model-based optimization into this process remains challenging due to the complexity of formulating and solving optimization problems across thousands of instances. In this work, we present CusADi, an extension of the casadi symbolic framework to support the parallelization of arbitrary closed-form expressions on GPUs with CUDA. We also formulate a closed-form approximation for solving general optimal control problems, enabling large-scale parallelization and evaluation of MPC controllers. Our results show a ten-fold speedup relative to similar MPC implementation on the CPU, and we demonstrate the use of CusADi for various applications, including parallel simulation, parameter sweeps, and policy training.},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10778410},
+  year={2024},
+  journal={IEEE Robotics and Automation Letters},
+  selected={true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{lee2024integrating,
+  title={Integrating model-based footstep planning with model-free reinforcement learning for dynamic legged locomotion},
+  author={Ho Jae Lee and Seungwoo Hong and Sangbae Kim},
+  abbr={IROS},
+  abstract={In this work, we introduce a control framework that combines model-based footstep planning with Reinforcement Learning (RL), leveraging desired footstep patterns derived from the Linear Inverted Pendulum (LIP) dynamics. Utilizing the LIP model, our method forward predicts robot states and determines the desired foot placement given the velocity commands. We then train an RL policy to track the foot placements without following the full reference motions derived from the LIP model. This partial guidance from the physics model allows the RL policy to integrate the predictive capabilities of the physics-informed dynamics and the adaptability characteristics of the RL controller without overfitting the policy to the template model. Our approach is validated on the MIT Humanoid, demonstrating that our policy can achieve stable yet dynamic locomotion for walking and turning. We further validate the adaptability and generalizability of our policy by extending the locomotion task to unseen, uneven terrain. During the hardware deployment, we have achieved forward walking speeds of up to 1.5 m/s on a treadmill and have successfully performed dynamic locomotion maneuvers such as 90-degree and 180-degree turns.},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10801468},
+  year={2024},
+  booktitle={Proceedings of the2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{khazoom2024tailoring,
+  title={Tailoring solution accuracy for fast whole-body model predictive control of legged robots},
+  author={Charles Khazoom and Seungwoo Hong and Matthew Chignoli and Elijah Stanger-Jones and Sangbae Kim},
+  abbr={RA-L},
+  abstract={Thanks to recent advancements in accelerating non-linear model predictive control (NMPC), it is now feasible to deploy whole-body NMPC at real-time rates for humanoid robots. However, enforcing inequality constraints in real time for such high-dimensional systems remains challenging due to the need for additional iterations. This letter presents an implementation of whole-body NMPC for legged robots that provides low-accuracy solutions to NMPC with general equality and inequality constraints. Instead of aiming for highly accurate optimal solutions, we leverage the alternating direction method of multipliers to rapidly provide low-accuracy solutions to quadratic programming subproblems. Our extensive simulation results indicate that real robots often cannot benefit from highly accurate solutions due to dynamics discretization errors, inertial modeling errors and delays. We incorporate control barrier functions (CBFs) at the initial timestep of the NMPC for the self-collision constraints, resulting in up to a 26-fold reduction in the number of self-collisions without adding computational burden. The controller is reliably deployed on hardware at 90 Hz for a problem involving 32 timesteps, 2004 variables, and 3768 constraints. The NMPC delivers sufficiently accurate solutions, enabling the MIT Humanoid to plan complex crossed-leg and arm motions that enhance stability when walking and recovering from significant disturbances.},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10669220},
+  year={2024},
+  journal={IEEE Robotics and Automation Letters},
+  selected={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@article{kim2024contact,
+  title={Contact-implicit Model Predictive Control: Controlling diverse quadruped motions without pre-planned contact modes or trajectories},
+  author={Gijeong Kim and Dongyun Kang and Joon-Ha Kim and Seungwoo Hong and Hae-Won Park},
+  abbr={IJRR},
+  abstract={This paper presents a contact-implicit model predictive control (MPC) framework for the real-time discovery of multi-contact motions, without predefined contact mode sequences or foothold positions. This approach utilizes the contact-implicit differential dynamic programming (DDP) framework, merging the hard contact model with a linear complementarity constraint. We propose the analytical gradient of the contact impulse based on relaxed complementarity constraints to further the exploration of a variety of contact modes. By leveraging a hard contact model-based simulation and computation of search direction through a smooth gradient, our methodology identifies dynamically feasible state trajectories, control inputs, and contact forces while simultaneously unveiling new contact mode sequences. However, the broadened scope of contact modes does not always ensure real-world applicability. Recognizing this, we implemented differentiable cost terms to guide foot trajectories and make gait patterns. Furthermore, to address the challenge of unstable initial roll-outs in an MPC setting, we employ the multiple shooting variant of DDP. The efficacy of the proposed framework is validated through simulations and real-world demonstrations using a 45 kg HOUND quadruped robot, performing various tasks in simulation and showcasing actual experiments involving a forward trot and a front-leg rearing motion.},
+  pdf={https://journals.sagepub.com/doi/reader/10.1177/02783649241273645},
+  year={2024},
+  journal={The International Journal of Robotics Research},
+  selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{choe2023seamless,
+  title={Seamless reaction strategy for bipedal locomotion exploiting real-time nonlinear model predictive control},
+  author={JongHun Choe and Joon-Ha Kim and Seungwoo Hong and Jinoh Lee and Hae-Won Park},
+  abbr={RA-L},
+  abstract={This letter presents a reactive locomotion method for bipedal robots enhancing robustness and external disturbance rejection performance by seamlessly rendering several walking strategies of the ankle, hip, and footstep adjustment. The Nonlinear Model Predictive Control (NMPC) is formulated to take into account nonlinear Divergent Component of Motion (DCM) error dynamics that predicts the future states of the robot in response to the walking strategies. This formulated NMPC enables the seamless application of these strategies improving push disturbance rejection performance. The proposed controller is validated in simulation and through an experiment on a bipedal robot platform, Gazelle, which confirms its effectiveness in real-time.},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10168974},
+  year={2023},
+  journal={IEEE Robotics and Automation Letters},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{hong2022agile,
+  title={Agile and versatile climbing on ferromagnetic surfaces with a quadrupedal robot},
+  author={Seungwoo Hong and Yong Um and Jaejun Park and Hae-Won Park},
+  abbr={Sci. Robot.},
+  abstract={A climbing robot that can rapidly move on diverse surfaces such as floors, walls, and ceilings will have an enlarged operational workspace compared with other terrestrial robots. However, the climbing skill of robots in such environments has been limited to low speeds or simple locomotion tasks. Here, we present an untethered quadrupedal climbing robot called MARVEL (magnetically adhesive robot for versatile and expeditious locomotion), capable of agile and versatile climbing locomotion in ferromagnetic environments. MARVEL excels over prior climbing robots in terms of climbing speed and ability to execute various motions. It demonstrates the fastest vertical and inverted walking speed, whereas its versatile locomotion ability enables the highest number of gaits and locomotion tasks. The key innovations are an integrated foot design using electropermanent magnets and magnetorheological elastomers that provide large adhesion and traction forces, torque control actuators, and a model predictive control framework adapted for stable climbing. In experiments, the robot achieved locomotion on ceilings and vertical walls up to 0.5 meter (1.51 body lengths) per second and 0.7 meter (2.12 body lengths) per second, respectively. Furthermore, the robot exhibited complex behaviors such as stepping over 10-centimeter-wide gaps; overcoming 5-centimeter-high obstacles; and making transitions between floors, walls, and ceilings. We also show that MARVEL could climb on a curved surface of a storage tank covered with up to 0.3-millimeter-thick paint with rust and dust.},
+  pdf={https://www.science.org/doi/reader/10.1126/scirobotics.add1017},
+  year={2022},
+  journal={Science Robotics},
+  selected={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{song2022drpd,
+  title={DRPD, Dual reduction ratio planetary drive for articulated robot actuators},
+  author={Tae-Gyu Song and Young-Ha Shin and Seungwoo Hong and Hyungho Choi and Joon-Ha Kim and Hae-Won Park},
+  abbr={IROS},
+  abstract={This paper presents a reduction mechanism for robot actuators that can switch between two types of reduction ratio. By fixing the carrier or ring gear of the proposed actuator which is based on the 3K compound planetary drive, the actuator can shift its reduction ratio. For compact design with reduced weight of the actuator, unique pawl brake mechanism interacting with cams and micro servos for switching mechanism is designed. The resulting prototype module has a reduction ratio of 6.91 and 44.93 for ‘low-reduction’ and ‘high-reduction’ ratios, respectively. Reduction ratios can be easily adjusted by modifying the pitch diameters of gears. Experimental results demonstrate that the proposed actuator could extend its operation region via two reduction modes that are interchangeable with gear shifting.},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981201},
+  year={2022},
+  booktitle={Proceedings of the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  selected={true}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{shin2022design,
+  title={Design of KAIST HOUND, a quadruped robot platform for fast and efficient locomotion with mixed-integer nonlinear optimization of a gear train},
+  author={Young-Ha Shin and Seungwoo Hong and Sangyoung Woo and JongHun Choe and Harim Son and Gijeong Kim and Joon-Ha Kim and KangKyu Lee and Jemin Hwangbo and Hae-Won Park},
+  abbr={ICRA},
+  abstract={This paper introduces a design method for an efficient and agile quadruped robot. A mixed-integer optimization formulation including the number of gear teeth is derived to obtain the optimal gear ratio that minimizes cost for a running-trot with the target speed of 3 m/s. With the inclusion of integer constraints related to the number of gear teeth, detailed design considerations of gear trains can be included in the optimization process. Thermal dissipation of the motor controller is also taken into account in the optimization to consider heat generation during high-speed running. KAIST Hound, a 45 kg robot, designed with the obtained design parameters has successfully demonstrated a 3 m/s running-trot using a nonlinear model predictive controller (NMPC). Furthermore, the robot has proved its robustness by the demonstration of additional experiments such as 22° slope climbing, 3.2 km walking, and traversing a 35 cm obstacle.},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9811755},
+  year={2022},
+  booktitle={Proceedings of the 2022 International Conference on Robotics and Automation (ICRA)},
+  selected={true}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{kim2021design,
+  title={Design of foothold decision model in convex model predictive control for legged robots},
+  author={Min-Gyu Kim and Seungwoo Hong and Joon-Ha Kim and Hae-Won Park},
+  abbr={RiTA},
+  abstract={This paper proposes a control framework for optimizing both ground reaction forces and new footholds in real-time through a model predictive control technique by parameterizing the foot position while constructing dynamics of a 3-dimensional single rigid body model. The method could substitute the conventional foothold controller based on linear inverted pendulum model such as capture point and be applied to balance dynamic locomotion of a robot on non-flat terrains. Furthermore, the controller is verified in various simulation environments, where foothold optimization is crucial.},
+  year={2021},
+  booktitle={International Conference on Robot Intelligence Technology and Applications},
+  selected={true}
+}
+
+@article{kim2021legged,
+  title={Legged robot state estimation with dynamic contact event information},
+  author={Joon-Ha Kim and Seungwoo Hong and Gwanghyeon Ji and Seunghun Jeon and Jemin Hwangbo and Jun-Ho Oh and Hae-Won Park},
+  abbr={RA-L},
+  abstract={This letter presents a state estimation algorithm for the legged robot by defining the problem as a Maximum A Posteriori (MAP) estimation problem and solving the problem with the Gauss-Newton algorithm. Moreover, marginalization by the Schur Complement method is adopted to make a fixed size problem. Each component of the cost function and its Jacobian are derived utilizing the SO(3) manifold structure, while we reparameterize the state with nominal state and variation to make linear algebra and vector calculus applied properly. Furthermore, a slip rejection method is proposed to reduce the erroneous effect of fault modeling of kinematics models. The proposed algorithm is verified by comparison with the Invariant Extended Kalman Filter (IEKF) in real robot experiments on various environments.},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9468900},
+  year={2021},
+  journal={IEEE Robotics and Automation Letters},
+  selected={true}
+}
+
+@inproceedings{hong2020real,
+  title={Real-time constrained nonlinear model predictive control on SO(3) for dynamic legged locomotion},
+  author={Seungwoo Hong and Joon-Ha Kim and Hae-Won Park},
+  abbr={IROS},
+  abstract={This paper presents a constrained nonlinear model predictive control (NMPC) framework for legged locomotion. The framework assumes a legged robot as a floating base single rigid body with contact forces being applied to the body as external forces. With consideration of orientation dynamics evolving on the rotation manifold SO(3), analytic Jacobians which are necessary for constructing the gradient and the Gauss-Newton Hessian approximation of the objective function are derived. This procedure also includes the reparameterization of the robot orientation on SO(3) to orientation error in the tangent space of that manifold. Obtained gradient and Gauss-Newton Hessian approximation are utilized to solve nonlinear least squares problems formulated from NMPC in a computationally efficient manner. The proposed algorithm is verified on various types of legged robots and gaits in a simulation environment.},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9341447},
+  year={2020},
+  booktitle={Proceedings of the 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  award={IROS RoboCup Best Paper Award},
+  selected={true}
+}
+
+@article{lee2020development,
+  title={Development of a lightweight and high-efficiency compact cycloidal reducer for legged robots},
+  author={KangKyu Lee and Seungwoo Hong and Jun-Ho Oh},
+  abbr={IJPEM},
+  abstract={Actuating systems for the proprioceptive control of legged robots must have a high mechanical efciency and mechanical bandwidth for high torque transmission to avoid power transmission losses. We developed a high-efciency compact cycloidal reducer for legged robots that uses needle roller bearings in all parts where contact occurs during the power transfer process inside the reducer, which greatly improves the efciency compared to a cycloidal reducer using free rollers. We also proposed a subcarrier structure that distributes the load and allows the cycloidal reducer to respond robustly to impacts that may occur during the locomotion of the legged robot. The subcarrier increases the stifness, which improves the mechanical bandwidth. A cycloidal reducer was manufactured with > 90% efciency in most operating ranges; it weighs 766 g and can withstand a torque of more than 155 Nm. The cycloidal reducer module coupled with the motor indicated a torque control bandwidth of 72 Hz, so it can be used for legged robots with agile motions.},
+  pdf={https://link.springer.com/content/pdf/10.1007/s12541-019-00215-9.pdf},
+  year={2020},
+  journal={International Journal of Precision Engineering and Manufacturing},
+  award={Editor-in-Chief’s Choice},
+  selected={true}
+}
+
+@inproceedings{lee2018implementing,
+  title={Implementing full-body torque control in humanoid robot with high gear ratio using pulse width modulation voltage},
+  author={KangKyu Lee and Okkee Sim and Hyobin Jeong and Jaesung Oh and Hyoin Bae and Seungwoo Hong and Jun-Ho Oh},
+  abbr={IROS},
+  abstract={Most state-of-the-art torque control-based legged robots show excellent performance, exceeding that of conventional position control-based robots. Many conventional position control-based legged robots have high gear ratios, but do not have joint torque sensors. In addition, some robots cannot generate current for controlling the motor torque. To apply torque control-based walking algorithms to a position control-based humanoid robot, we proposed current control using a motor thermal model and realized joint torque control by compensating for the joint dynamics and robot dynamics. We conducted experiments to verify the performance of the Hubo2 platform developed in 2008 by applying a full-body dynamics control framework. The results confirmed the possibility of using torque control algorithms with existing position-based robots.},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8593908},
+  year={2018},
+  booktitle={Proceedings of the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}
 }
