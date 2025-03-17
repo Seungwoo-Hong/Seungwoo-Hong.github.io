@@ -1,97 +1,121 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Seungwoo Hong
+#     # - name: Date of Birth
+#     #   value: 9th November 1989
+#     - name: Languages
+#       value: Korean (First language), Chinese (Native), English (Fluent)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: "Assistant Professor of Mechanical Engineering <br> (dual affiliation with the School of Smart Mobility)"
+      institution: Korea University, Seoul, Korea
+      year: Mar 2025 — 
+    - title: Postdoctoral Associate in Mechanical Engineering
+      institution: Massachusetts Institute of Technology (MIT), Cambridge, MA
+      # year: Jun 2023 — Feb 2025
+      year: 2023 — 2025
+      # year: Feb 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Supervised by Prof. Sangbae Kim
+        # - Research on humanoid locomotion controllers using model-based optimization and model-free reinforcement learning methods.
+    - title: Research Scientis in Mechanical Engineering
+      institution: Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Korea
+      # year: Sep 2017 — Aug 2018
+      year: 2017 — 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Supervised by Prof. Jun-Ho Oh
+        # - Research on model-based control algorithms for quadrupedal robots.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Ph.D. in Mechanical Engineering
+      institution: Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Korea
+      # year: Sep 2018 — Feb 2023
+      year: Feb 2023
+      description:
+        - Advised by Prof. Hae-Won Park.
+        - Thesis$:$ Nonlinear Model Predictive Control on SO(3) for Dynamic Legged Locomotion
+        - <em>Best PhD Dissertation Award</em>
+    - title: M.S. in Mechanical Engineering
+      institution: Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Korea
+      year: Aug 2017
+      description:
+        - Advised by Prof. Jun-Ho Oh.
+        - Thesis$:$ (A) Study on the Stable Gait Transition Pattern Generation of Quadruped Robot
+    - title: B.S. in Mechanical Engineering
+      institution: Shanghai Jiao Tong University (SJTU), Shanghai, China
+      year: Sep 2014
+      description:
+        - <em>Outstanding graduate of SJTU</em>.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - <em>Research Mentoring Certificate</em>, MIT, July 2024
+    - year: 2023
       items:
-        - Max Planck Medal
+        - <em>Best PhD Dissertation Award</em>, College of Engineering, KAIST, February 2023
+    - year: 2022
+      items:
+        - <em>Cover Article</em>, Science Robotics, December 2022
+    - year: 2021
+      items:
+        - <em>KAIST Breakthroughs</em>, for "Enabling legged robots to perform acrobatic maneuvers", Biannual Engineering Research Webzine, KAIST, Spring 2021
+    - year: 2020
+      items:
+        - <em>IEEE IROS RoboCup Best Paper Award</em>, October 2020
+    - year: 2009 — 2014
+      items:
+        - <em>Outstanding Graduate</em>, Shanghai Jiao Tong University, 2014
+        - <em>First Prize</em>, for "Undergraduate Speech Competition", Shanghai Jiao Tong University, 2014
+        - <em>Distinguished Students Scholarship</em>, Shanghai Municipal Education Commission, 2009, 2012, 2013
 
-- title: Academic Interests
+- title: Professional Services
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: <strong>Reviewer for paper submissions to:</strong>
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - International Journal of Robotics Research (IJRR)
+        - IEEE Transactions on Robotics (T-RO)
+        - IEEE Robotics and Automation Letters (RA-L)
+        - Intelligent Service Robotics
+        - IEEE International Conference on Intelligent Robots and Systems (IROS)
+        - IEEE International Conference on Robotics and Automation (ICRA)
+        - International Conference on Robot Intelligence Technology and Applications (RiTA)
+        - International Conference on Ubiquitous Robots (UR)
 
-- title: Other Interests
-  type: list
+- title: Invited Talks
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2024
+      items:
+        - Guest Lecture for Bio-Inspired Robotics, "Model Predictive Control for Legged Robots$:$ Enabling Agile and Versatile Legged Locomotion", MIT, Cambridge, MA, 20 November 2024
+        - Sung Kyun Kwan University, "Model Predictive Control for Legged Robots$:$ Enabling Agile and Versatile Quadrupedal and Humanoid Locomotion", held virtually, Korea, March 2024
+    - year: 2023
+      items:
+        - Guest Lecture for Bio-Inspired Robotics, "Nonlinear Model Predictive Control on SO(3) for Dynamic Legged Locomotion", MIT, Cambridge, MA, November 2023
+        #- Locomotion Manipulation Research Group, Korea Robotics Society (KROS), "MARVEL, Agile and Versatile Legged Climber", Pyeongchang, Korea, February 2023
+    - year: 2022
+      items:
+        - Flagship Conferences, Korea Robotics Society Annual Conference (KRoC), "Real-Time Constrained Nonlinear Model Predictive Control on SO(3) for Dynamic Legged Locomotion", Pyeongchang, Korea, May 2022
+        
+- title: Leadership
+  type: time_table
+  contents:
+    - title: Sergeant
+      institution: Republic of Korea Army, South Korea
+      year: 2009 — 2011
+      description:
+        - Served as an Artillery Instructor, teaching Army officers (Captains, First and Second Lieutenants) and soldiers how to repair artillery (KH-179)
+    - title: President of International Student Association
+      institution: Shanghai Jiao Tong University, Shanghai, China
+      year: 2012 — 2014
+      description:
+        - Served and dedicated to championing Diversity, Equity, and Inclusion (DEI) initiatives within the university, demonstrating a strong commitment to fostering an inclusive and diverse academic environment

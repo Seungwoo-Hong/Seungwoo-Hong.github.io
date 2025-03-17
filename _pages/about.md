@@ -2,9 +2,13 @@
 layout: about
 title: about
 permalink: /
+# subtitle: |+ 
+#   Assistant Professor, Department of Mechanical Engineering, <br>
+#   with a dual affiliation in the School of Smart Mobility, <br> 
+#   <a href='https://www.korea.ac.kr/sites/en/index.do'>Korea University</a>
 subtitle: |+ 
-  Assistant Professor, Department of Mechanical Engineering, <br>
-  with a dual affiliation in the School of Smart Mobility, <br> 
+  Assistant Professor, Department of Mechanical Engineering <br>
+  (dual affiliation with the School of Smart Mobility), <br> 
   <a href='https://www.korea.ac.kr/sites/en/index.do'>Korea University</a>
 
 profile:

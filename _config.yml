@@ -200,7 +200,7 @@ exclude:
   - _pages/profiles.md
   - _pages/dropdown.md
   # - _pages/publications.md
-  - _pages/cv.md
+  # - _pages/cv.md
   # - _site/assets/js/search_data/js
   # - _scripts/search.liquid.js
 keep_files:
