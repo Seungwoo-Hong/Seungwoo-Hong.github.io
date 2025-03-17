@@ -3,7 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: |+ 
-  Assistant Professor, Department of Mechanical Engineering, <br> 
+  Assistant Professor, Department of Mechanical Engineering, <br>
+  with a dual affiliation in the School of Smart Mobility, <br> 
   <a href='https://www.korea.ac.kr/sites/en/index.do'>Korea University</a>
 
 profile:
@@ -20,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 10 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -28,6 +29,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**Biography:** I am currently an assistant professor in the Department of Mechanical Engineering at Korea University, where I have been serving since March 1st, 2025. Before joining Korea University, I was a postdoctoral associate at the [MIT Biomimetic Robotics Lab](https://biomimetics.mit.edu/) from 2023 to 2025. I received my B.S. degree in Mechanical Engineering from Shanghai Jiao Tong University in July 2014, and my M.S. and Ph.D. degrees in Mechanical Engineering from the Korea Advanced Institute of Science and Technology (KAIST) in August 2017 and February 2023, respectively.
+**Biography:** I am currently an Assistant Professor in the Department of Mechanical Engineering, with a dual affiliation in the School of Smart Mobility, at Korea University, where I have been working since March 1, 2025. Before joining Korea University, I was a Postdoctoral Associate at the [MIT Biomimetic Robotics Lab](https://biomimetics.mit.edu/), working with Prof. Sangbae Kim (June 2023 - February 2025). I received my Ph.D. from KAIST [DRCD Lab](https://dynamicrobot.kaist.ac.kr/), advised by Prof. Hae-Won Park (September 2018 - February 2023). Prior to that, I received my B.S. degree in Mechanical Engineering from SJTU in July 2014 and my M.S. degree from KAIST Hubo Lab, advised by Prof. Jun-Ho Oh, in August 2017.
 
 **Research Interest:** My research to date has focused on developing dynamic legged robotic systems (such as humanoid and quadruped robots) and control algorithms that leverage numerical optimization and physical principles, exploit mathematical structures in model-based optimal control problems, and provide fast computational implementations with rigorous performance guarantees, facilitating real-world robotic system deployment. Currently, my research focuses on integrating model-based optimal control with learning-based methods to enhance extreme-terrain mobility and enable the automated discovery of complex whole-body movements through contact-rich dynamics for both humanoids and quadrupeds, ultimately aiming to achieve human-level autonomy, versatility, and dexterity in mobility and manipulation.
+
+**Contact:** The best way to reach me is via email at <u>seungwoohong@korea.ac.kr</u>.
