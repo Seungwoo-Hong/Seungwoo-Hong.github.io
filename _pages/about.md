@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: |+ 
 #   Assistant Professor, Department of Mechanical Engineering, <br>
@@ -37,4 +37,6 @@ latest_posts:
 
 **Research Interest:** My research to date has focused on developing dynamic legged robotic systems (such as humanoid and quadruped robots) and control algorithms that leverage numerical optimization and physical principles, exploit mathematical structures in model-based optimal control problems, and provide fast computational implementations with rigorous performance guarantees, facilitating real-world robotic system deployment. Currently, my research focuses on integrating model-based optimal control with learning-based methods to enhance extreme-terrain mobility and enable the automated discovery of complex whole-body movements through contact-rich dynamics for both humanoids and quadrupeds, ultimately aiming to achieve human-level autonomy, versatility, and dexterity in mobility and manipulation.
 
-**Contact:** The best way to reach me is via email at <u>seungwoohong@korea.ac.kr</u>.
+<!-- **Contact:** The best way to reach me is via email at <u>seungwoohong@korea.ac.kr</u>.  -->
+
+**Conatct:** Application instructions are available under the [Contact](/contact) tab. For other inquiries, please contact me at <u>seungwoohong@korea.ac.kr</u>. 
