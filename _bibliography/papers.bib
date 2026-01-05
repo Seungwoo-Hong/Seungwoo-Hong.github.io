@@ -1,6 +1,17 @@
 ---
 ---
 
+@article{jeon2025residual,
+  title={Residual MPC: Blending Reinforcement Learning with GPU-Parallelized Model Predictive Control},
+  author={Se Hwan Jeon and Ho Jae Lee and Seungwoo Hong and Sangbae Kim},
+  abbr={arXiv},
+  abstract={Model Predictive Control (MPC) provides interpretable, tunable locomotion controllers grounded in physical models, but its robustness depends on frequent replanning and is limited by model mismatch and real-time computational constraints. Reinforcement Learning (RL), by contrast, can produce highly robust behaviors through stochastic training but often lacks interpretability, suffers from out-of-distribution failures, and requires intensive reward engineering. This work presents a GPU-parallelized residual architecture that tightly integrates MPC and RL by blending their outputs at the torque-control level. We develop a kinodynamic whole-body MPC formulation evaluated across thousands of agents in parallel at 100 Hz for RL training. The residual policy learns to make targeted corrections to the MPC outputs, combining the interpretability and constraint handling of model-based control with the adaptability of RL. The model-based control prior acts as a strong bias, initializing and guiding the policy towards desirable behavior with a simple set of rewards. Compared to standalone MPC or end-to-end RL, our approach achieves higher sample efficiency, converges to greater asymptotic rewards, expands the range of trackable velocity commands, and enables zero-shot adaptation to unseen gaits and uneven terrain.},
+  pdf={https://arxiv.org/pdf/2510.12717},
+  year={2025},
+  journal={arXiv preprint arXiv:2510.12717},
+  selected={true}
+}
+
 @article{shin2025lightdog,
   title={Design of LIGHTDOG: A High Payload-to-Weight, Hose-less Hydraulic Quadrupedal Robot},
   author={Seunghoon Shin and Seungwoo Hong and Min-Su Kim and Jun-Ho Oh and Hae-Won Park},

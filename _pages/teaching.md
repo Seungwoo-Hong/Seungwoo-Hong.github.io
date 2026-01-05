@@ -18,3 +18,6 @@ Organize your courses by years, topics, or universities, however you like! -->
 ## 2025 Spring
 - MOBI-204: Engineering Mathematics I & II
 - MOBI-301: Mechanical Design and Fabrication
+
+## 2025 Winter
+- MOBI-206: Solid Mechanics I

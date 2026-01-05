@@ -1,0 +1,27 @@
+---
+layout: page
+permalink: /people/
+title: People
+description: # Materials for courses you taught. Replace this text with your description.
+nav: true
+nav_order: 7
+---
+
+<!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+
+Organize your courses by years, topics, or universities, however you like! -->
+
+## PhD / MSc Students
+- Jun Kang (Korea University): Incoming PhD Student (Starting March 2026)
+- Youngchan Kong (Korea University): Incoming MSc Student (Starting March 2026)
+
+<!-- ## MSc Students
+- Youngchan Kong (Korea University): March 2026 – Present -->
+
+## BSc Students
+- Yoomin Noh (Korea University): March 2025 – Present
+- Minjong Choi (Korea University): June 2025 – Present
+- Woojin Kim (Korea University): July 2025 – Present
+- Seohyun Bae (Sookmyung Women's University): October 2025 – Present
+- Dahyun Koo (Korea University): December 2025 – Present
+- Jiwon Kang (Korea University): December 2025 – Present
