@@ -11,6 +11,9 @@ nav_order: 6
 
 Organize your courses by years, topics, or universities, however you like! -->
 
+## 2025 Winter
+- MOBI-206: Solid Mechanics I
+
 ## 2025 Fall
 - MOBI-101: Programming Language
 - MOBI-310: Automatic Control
@@ -18,6 +21,3 @@ Organize your courses by years, topics, or universities, however you like! -->
 ## 2025 Spring
 - MOBI-204: Engineering Mathematics I & II
 - MOBI-301: Mechanical Design and Fabrication
-
-## 2025 Winter
-- MOBI-206: Solid Mechanics I
