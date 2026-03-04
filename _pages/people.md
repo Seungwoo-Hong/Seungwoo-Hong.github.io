@@ -13,8 +13,8 @@ Organize your courses by years, topics, or universities, however you like! -->
 
 ## Ph.D. / M.S. Students
 - Joon Kang (Korea University): PhD Candidate
-  M.S.: Department of Mechanical Engineering, Korea University
-  B.S.: School of Mechanical Engineering, Korea University
+  <br>- M.S.: Department of Mechanical Engineering, Korea University
+  <br>- B.S.: School of Mechanical Engineering, Korea University
 <!-- - Jun Kang (Korea University): Incoming PhD Student (Starting March 2026) -->
 <!-- - Youngchan Kong (Korea University): Incoming MSc Student (Starting March 2026) -->
 
