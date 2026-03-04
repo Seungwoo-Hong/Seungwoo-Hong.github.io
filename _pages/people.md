@@ -26,8 +26,8 @@ Organize your courses by years, topics, or universities, however you like! -->
 - Minjong Choi (Korea University): June 2025 – Present
 - Woojin Kim (Korea University): July 2025 – Present
 <!-- - Seoyeon Bae (Sookmyung Women's University): October 2025 – Present -->
-- Jiun Kim (Korea University): November 2025 - Present
+- Jiun Kim (Korea University): November 2025 – Present
 - Dahyun Ku (Korea University): December 2025 – Present
 - Jiwon Kang (Korea University): December 2025 – Present
-- Sejin Ma (Korea University): March 2026 - Present
-<!-- - Jongbin Baek (Korea University): March 2026 - Present -->
+- Sejin Ma (Korea University): March 2026 – Present
+<!-- - Jongbin Baek (Korea University): March 2026 – Present -->
