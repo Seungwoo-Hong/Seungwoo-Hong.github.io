@@ -12,7 +12,7 @@ nav_order: 7
 Organize your courses by years, topics, or universities, however you like! -->
 
 ## Ph.D. / M.S. Students
-- Joon Kang (Korea University): PhD Candidate
+- Joon Kang (Korea University): Ph.D. Candidate
   <br>- M.S.: Department of Mechanical Engineering, Korea University
   <br>- B.S.: School of Mechanical Engineering, Korea University
 <!-- - Jun Kang (Korea University): Incoming PhD Student (Starting March 2026) -->
@@ -30,4 +30,5 @@ Organize your courses by years, topics, or universities, however you like! -->
 - Dahyun Ku (Korea University): December 2025 – Present
 - Jiwon Kang (Korea University): December 2025 – Present
 - Sejin Ma (Korea University): March 2026 – Present
-<!-- - Jongbin Baek (Korea University): March 2026 – Present -->
+- Jongbin Baek (Korea University): March 2026 – Present
+- Sangwoo Woo (Korea University): March 2026 – Present
