@@ -32,3 +32,4 @@ Organize your courses by years, topics, or universities, however you like! -->
 - Sejin Ma (Korea University): March 2026 – Present
 - Jongbin Baek (Korea University): March 2026 – Present
 - Sangwoo Woo (Korea University): March 2026 – Present
+- Seohyun Kim (Korea University): March 2026 – Present
