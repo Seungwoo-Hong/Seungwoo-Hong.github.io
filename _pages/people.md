@@ -22,7 +22,7 @@ Organize your courses by years, topics, or universities, however you like! -->
 - Youngchan Kong (Korea University): March 2026 – Present -->
 
 ## B.S. Students
-- Yoomin Noh (Korea University): March 2025 – Present
+<!-- - Yoomin Noh (Korea University): March 2025 – Present -->
 - Minjong Choi (Korea University): June 2025 – Present
 - Woojin Kim (Korea University): July 2025 – Present
 <!-- - Seoyeon Bae (Sookmyung Women's University): October 2025 – Present -->
@@ -32,5 +32,7 @@ Organize your courses by years, topics, or universities, however you like! -->
 - Sejin Ma (Korea University): March 2026 – Present
 - Jongbin Baek (Korea University): March 2026 – Present
 - Sangwoo Woo (Korea University): March 2026 – Present
-- Seohyun Kim (Korea University): March 2026 – Present
 - Yunseok Heo (Korea University): March 2026 – Present
+- Seohyun Kim (Korea University): May 2026 – Present
+- Kyunghoon Shin (Korea University): July 2026 – Present
+- Seungwoo Ahn (Korea University): July 2026 – Present
