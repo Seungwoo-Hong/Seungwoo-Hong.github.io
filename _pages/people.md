@@ -15,6 +15,8 @@ Organize your courses by years, topics, or universities, however you like! -->
 - Joon Kang (Korea University): Ph.D. Candidate
   <br>- M.S.: Department of Mechanical Engineering, Korea University
   <br>- B.S.: School of Mechanical Engineering, Korea University
+- Woojin Kim (Korea University): M.S. Student
+  <br>- B.S.: School of Smart Mobility, Korea University
 <!-- - Jun Kang (Korea University): Incoming PhD Student (Starting March 2026) -->
 <!-- - Youngchan Kong (Korea University): Incoming MSc Student (Starting March 2026) -->
 
@@ -24,7 +26,7 @@ Organize your courses by years, topics, or universities, however you like! -->
 ## B.S. Students
 <!-- - Yoomin Noh (Korea University): March 2025 – Present -->
 - Minjong Choi (Korea University): June 2025 – Present
-- Woojin Kim (Korea University): July 2025 – Present
+<!-- - Woojin Kim (Korea University): July 2025 – Present -->
 <!-- - Seoyeon Bae (Sookmyung Women's University): October 2025 – Present -->
 - Jiun Kim (Korea University): November 2025 – Present
 - Dahyun Ku (Korea University): December 2025 – Present
