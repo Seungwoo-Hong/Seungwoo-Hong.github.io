@@ -11,6 +11,11 @@ nav_order: 6
 
 Organize your courses by years, topics, or universities, however you like! -->
 
+## 2026 Fall
+- MOBI-310: Automatic Control
+- MOB-552:  Optimal Control
+- MOB-501:  Smart Mobility Seminar
+
 ## 2026 Spring
 - MOBI-402: Mechatronics
 - MOBI-301: Mechanical Design and Fabrication

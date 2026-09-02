@@ -38,3 +38,4 @@ Organize your courses by years, topics, or universities, however you like! -->
 - Seohyun Kim (Korea University): May 2026 – Present
 - Kyunghoon Shin (Korea University): July 2026 – Present
 - Seungwoo Ahn (Korea University): July 2026 – Present
+- Charnwoo Kim (Korea University): September 2026 – Present
